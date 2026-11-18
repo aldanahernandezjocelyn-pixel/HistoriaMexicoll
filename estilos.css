@@ -1,0 +1,53 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Arial, sans-serif; }
+body { background:#f4f1e8; color:#222; line-height:1.7; }
+.hero { background:linear-gradient(135deg,#006847 0%,#004d33 60%,#8b0000 100%); color:white; padding:40px 20px; display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+.hero img { width:180px; border-radius:12px; background:white; padding:8px; }
+.hero h1 { font-size:48px; line-height:1; margin:10px 0; }
+.etiqueta { background:#ffcc00; color:#000; padding:6px 12px; border-radius:20px; font-weight:800; font-size:12px; }
+.hero nav { margin-top:20px; display:flex; gap:10px; flex-wrap:wrap; }
+.hero nav a { background:white; color:#006847; padding:10px 16px; border-radius:25px; text-decoration:none; font-weight:700; }
+main { max-width:1100px; margin:0 auto; padding:20px; }
+.intro { text-align:center; padding:20px 0 30px; }
+.intro h2 { font-size:32px; color:#006847; margin-bottom:12px; }
+.intro p { margin-bottom:12px; text-align:justify; }
+.tarjetas { display:flex; gap:15px; justify-content:center; flex-wrap:wrap; margin-top:20px; }
+.card { background:white; padding:20px; border-radius:15px; width:280px; box-shadow:0 5px 15px rgba(0,0,0,.08); border-top:5px solid #ce1126; text-align:left; }
+.card span { background:#006847; color:white; padding:4px 10px; border-radius:15px; font-size:12px; font-weight:700; }
+.card h3 { margin:10px 0 5px; }
+.seccion { display:flex; gap:30px; padding:30px; border-radius:20px; margin-bottom:25px; flex-wrap:wrap; align-items:flex-start; }
+.seccion.verde { background:#e6f2eb; border:2px solid #006847; }
+.seccion.blanca { background:white; box-shadow:0 5px 20px rgba(0,0,0,.08); }
+.seccion.rojo { background:#fdecea; border:2px solid #ce1126; }
+.seccion .texto { flex:1; min-width:280px; }
+.seccion .imagen { flex:1; min-width:280px; }
+.seccion img { width:100%; border-radius:15px; margin-bottom:15px; }
+.seccion small { display:block; margin-top:-8px; margin-bottom:15px; color:#555; font-style:italic; text-align:center; }
+.numero { background:#ce1126; color:white; padding:5px 12px; border-radius:20px; font-size:12px; font-weight:800; }
+.seccion h2 { font-size:28px; margin:12px 0; }
+.seccion h3 { margin:20px 0 10px; color:#006847; }
+.seccion p { margin-bottom:12px; text-align:justify; }
+.seccion ul, .seccion ol { margin-left:20px; margin-bottom:12px; }
+.seccion li { margin-bottom:7px; text-align:justify; }
+.dato { background:#fff3cd; padding:14px; border-radius:10px; border-left:5px solid #ffcc00; margin-top:15px; }
+.link { color:#006847; font-weight:800; text-decoration:none; }
+.tabla-contenedor { overflow-x:auto; margin:15px 0; }
+table { width:100%; border-collapse:collapse; background:white; }
+table th { background:#006847; color:white; padding:12px; text-align:left; }
+table td { padding:12px; border:1px solid #ddd; }
+table tr:nth-child(even) { background:#f2f2f2; }
+.video-box { max-width:700px; margin:20px auto; border-radius:15px; overflow:hidden; border:4px solid #ce1126; background:#111; }
+.video-box iframe { display:block; width:100%; height:315px; border:0; }
+.collage-unico { text-align:center; margin:15px 0; }
+.collage-unico img { width:100%; border-radius:15px; border:4px solid #006847; box-shadow:0 8px 20px rgba(0,0,0,.25); }
+.collage-unico p { margin-top:10px; font-size:14px; background:#fff3cd; padding:12px; border-radius:10px; }
+.form-seccion { background:white; padding:30px; border-radius:20px; margin-top:25px; }
+.form-seccion h2 { color:#006847; margin-bottom:10px; }
+.form-seccion label { display:block; font-weight:700; margin-top:15px; margin-bottom:5px; }
+.form-seccion input, .form-seccion select { width:100%; padding:12px; border:2px solid #ddd; border-radius:10px; font-size:16px; }
+.form-seccion button { background:#ce1126; color:white; border:none; padding:14px 25px; border-radius:25px; font-size:16px; font-weight:800; margin-top:20px; cursor:pointer; width:100%; }
+.mensaje-alerta { padding:15px; border-radius:10px; margin-top:15px; font-weight:700; text-align:center; }
+.conclusion { background:#006847; color:white; padding:30px; border-radius:20px; text-align:center; margin-top:25px; }
+.conclusion h2 { margin-bottom:12px; }
+footer { text-align:center; padding:30px; color:#666; }
+footer a { color:#ce1126; font-weight:700; text-decoration:none; }
+@media (max-width:700px){ .hero h1{font-size:34px;} .hero img{width:130px;} .seccion{padding:20px;} .video-box iframe{height:220px;} }
